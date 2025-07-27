@@ -1,0 +1,29 @@
+{
+    "training_parameters": {
+        "task": "regression",
+        "epochs": 500,
+        "batch_size": 256,
+        "lr": 0.001,
+        "lr_milestones": [100],
+        "momentum": 0.9,
+        "weight_decay": 0,
+        "optim": "Adam"
+    },
+    "data_parameters": {
+        "train_ratio": 0.85,
+        "val_ratio": 0.15,
+        "test_ratio": 0.0,
+        "workers": 0
+    },
+    "search_parameters": {
+        "search_radius": 20,
+        "max_num_nbr": 15,
+        "search_step": 0.2
+    },
+    "model_parameters": {
+        "atom_fea_len": 64,
+        "h_fea_len": 256,
+        "n_conv": 8,
+        "n_h": 2
+    }
+}
