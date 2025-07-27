@@ -3,6 +3,7 @@
     "algorithm": "CrystalX",
     "algorithm_long": "CrystalX is a crystal graph neural network implementation utilizing asymmetric edge convolution for materials property prediction. The model processes crystal structures by constructing graphs where atoms are nodes and bonds are edges, applying specialized convolutional operations that can handle asymmetric relationships between neighboring atoms in the crystal lattice.",
     "bibtex_refs": "",
+    "notes":"",
     "requirements": {
         "python": [
             "pymatgen==2025",
